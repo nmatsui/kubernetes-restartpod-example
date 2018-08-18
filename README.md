@@ -13,6 +13,11 @@ An example of kubernetes cronjob to restart Deployment.
     ```bash
     $ vi restart-hello-world-api-cronjob.yaml
     ```
+1. Apply an example CronJob.
+
+    ```bash
+    $ kubectl applyapply -f restart-hello-world-api-cronjob.yaml
+    ```
 1. The Pods belonging to that Deployment will be restarted automatically at the scheduled time.
 
 ## License
