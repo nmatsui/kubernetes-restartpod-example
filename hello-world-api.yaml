@@ -14,7 +14,7 @@ spec:
       labels:
         app: hello-world-api
       annotations:
-        lastUpdate: "${now}"
+        lastUpdate: "manual deploy"
     spec:
       containers:
       - name: hello-world-api
